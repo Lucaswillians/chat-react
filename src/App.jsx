@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { auth, db } from './services/firebase'
-import Loading from './components/Loading'
-import Login from './components/Login'
+
+import Loading from './components/Loading/index.jsx'
+import Login from './components/Login/index.jsx'
 
 export default function App () {
   const [user, loading] = useAuthState(auth)
