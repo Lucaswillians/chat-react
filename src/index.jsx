@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client"
-import App from "./App"
-import GlobalStyle from "./styles/global"
+
+import App from "./App.jsx"
+import GlobalStyle from "./styles/global.jsx"
 
 const root = createRoot(document.querySelector("#root"))
 
